@@ -1,0 +1,17 @@
+Release 1.2
+
+* Fixed: IpLoc_Locator SQL-query bug "The SELECT would examine more than MAX_JOIN_SIZE rows; check your WHERE and use SET SQL_BIG_SELECTS=1 or SET SQL_MAX_JOIN_SIZE=# if the SELECT is okay"
+* Fixed: User IP detecting in /examples/index.php
+
+Release 1.1
+
+* Refactoring: IpDetector renamed to IpLocator
+* Refactoring: IpLoc_Detector renamed to IpLoc_Locator
+* Refactoring: Added interface IpLoc_Base_SourceInterface
+* Refactoring: IpLoc_Base_Updater now works with IpLoc_Base_SourceInterface but not with filepaths to CSV files
+
+Release 1.0
+
+* Added: Import IP locations masks from http://www.maxmind.com/app/geolitecity CSV to database
+* Added: Get coordinates, country and city by IP from local database
+* Added: Support MySQL and PostgreSQL
