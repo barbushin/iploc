@@ -24,9 +24,9 @@ CREATE TABLE `iploc_masks` (
 ');
 
 /**
- * @see http://code.google.com/p/iploc
+ * @see https://github.com/barbushin/iploc
  * @link http://www.maxmind.com/app/geolitecity
- * @author Barbushin Sergey http://www.linkedin.com/in/barbushin
+ * @author Barbushin Sergey http://linkedin.com/in/barbushin
  *
  */
 class IpLoc_Base_Updater {
